@@ -1,0 +1,2 @@
+FROM tomcat:9-jdk17
+COPY target/demo-app-1.0.war /usr/local/tomcat/webapps/demo-app.war
